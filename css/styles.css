@@ -1,0 +1,223 @@
+:root {
+  --main-blue: #151d3b;
+  --second-blue: #1c658c;
+  --lower-blue: #398ab9;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h1 {
+  size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Section */
+
+.colored-section {
+  background-color: var(--main-blue);
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* -------------------- */
+/* -- title Section -- */
+/* ------------------ */
+
+#title {
+  position: relative;
+  padding-bottom: 200px;
+  text-align: left;
+}
+
+.title-head {
+  margin-bottom: 30px;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-outline-info {
+  color: white;
+  border: 2px solid;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 50px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  padding-left: 0 18px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Images title */
+
+.title-image {
+  width: 24%;
+  position: absolute;
+  transform: rotate(-2deg); /* Equal to rotateZ(45deg) */
+  right: 20%;
+  z-index: 0;
+  border: solid white;
+  border-radius: 50%;
+}
+
+/* --------------------  */
+/* --About-Me Section --*/
+/* ------------------  */
+
+#about-Me {
+  position: relative;
+  padding: 40px 0;
+  z-index: 1;
+}
+
+#about-Me p {
+  color: #8f8f8f;
+}
+
+.about-Me-item {
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.icon {
+  color: var(--main-blue);
+  padding-bottom: 10px;
+}
+
+.icon:hover {
+  color: var(--second-blue);
+}
+
+/* --------------------      */
+/* --my-owenr Section --*/
+/* ------------------      */
+
+#my-owenr {
+  position: relative;
+}
+
+.my-owenr-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* --------------------      */
+/* --press Section --*/
+/* ------------------      */
+
+#press {
+  padding-bottom: 40px;
+}
+
+#press img {
+  width: 15%;
+  padding: 10px 20px;
+}
+
+/* --------------------      */
+/* --Pricing Section --*/
+/* ------------------      */
+
+#adopt {
+  padding: 100px;
+}
+
+.adopt-card {
+  padding: 3% 2%;
+}
+
+.card-padding {
+  padding-bottom: 60px;
+  position: relative;
+}
+
+/* --------------------      */
+/* --contact Section --*/
+/* ------------------      */
+
+#contact {
+  position: relative;
+  padding: 30px;
+}
+
+/* --------------------      */
+/* --footer Section --*/
+/* ------------------      */
+
+#footer {
+  margin: 30px 0px 10px 0px;
+}
+
+#footer i {
+  padding: 0px 10px;
+}
+
+#footer .copyright {
+  color: rgba(0, 0, 0, 0.438);
+  font-size: 0.8rem;
+}
+
+/* --------------------      */
+/* --      Media        --*/
+/* ------------------      */
+
+@media (max-width: 991px) {
+  #title {
+    padding-bottom: 30px;
+  }
+  .title-head {
+    margin-bottom: 10px;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+    width: 40%;
+  }
+
+  .title-row {
+    text-align: center;
+  }
+}
