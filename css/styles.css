@@ -17,15 +17,15 @@ h3 {
 }
 
 h1 {
-  size: 3.5rem;
+  size: 4em;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 3em;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 /* Section */
@@ -74,7 +74,7 @@ h3 {
 
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .nav-link {
@@ -203,9 +203,12 @@ h3 {
 /* --      Media        --*/
 /* ------------------      */
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #title {
     padding-bottom: 30px;
+  }
+  #title .container-fluid {
+    padding: 0% 3% 30% 3%;
   }
   .title-head {
     margin-bottom: 10px;
@@ -219,5 +222,13 @@ h3 {
 
   .title-row {
     text-align: center;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  body {
+    font-size: -1em;
   }
 }
